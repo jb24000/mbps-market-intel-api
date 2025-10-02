@@ -1,0 +1,12 @@
+### MBPS API quick tests
+# Set your base URL here:
+@base = https://abc123.execute-api.us-east-1.amazonaws.com
+
+### City to Zips
+GET {{base}}/city-zips?city_state=Raleigh,NC
+
+### Zip neighbors
+GET {{base}}/zip-neighbors?zip=27612
+
+### Market
+GET {{base}}/market?zip=27612
